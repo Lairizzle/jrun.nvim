@@ -11,7 +11,7 @@ Using [lazy.nvim](https://github.com/folke/lazy.nvim):
   "lairizzle/jrun.nvim",
   config = function()
     vim.keymap.set("n", "<leader>jr", function()
-      require("java_run").run()
+      require("jrun").run()
     end, { desc = "Run Java in floating terminal" })
   end,
 }
